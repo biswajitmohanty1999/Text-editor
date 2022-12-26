@@ -100,7 +100,7 @@ class editor extends JFrame implements ActionListener{
         }
         else if(s.equals("Open")){
             //initialising the JfileChooser with desired directory
-              JFileChooser j=new JFileChooser("D: ");
+              JFileChooser j=new JFileChooser("D:");
 
               //invoking the opendiallogbox with an integer
             int r=j.showOpenDialog(null);
@@ -136,7 +136,7 @@ class editor extends JFrame implements ActionListener{
                 JOptionPane.showMessageDialog(f,"operation cancelled");
         }
         else if(s.equals("Save")){
-              JFileChooser j= new JFileChooser("D: ");
+              JFileChooser j= new JFileChooser("D:");
 
               int r=j.showSaveDialog(null);
              if(r==JFileChooser.APPROVE_OPTION){
