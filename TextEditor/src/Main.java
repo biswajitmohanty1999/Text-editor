@@ -84,7 +84,7 @@ class editor extends JFrame implements ActionListener{
           //we add the text area 't' to the frame
           f.add(t);
           //here we set the frame size
-          f.setSize(1600,900);
+          f.setSize(800,500);
           f.show();
       }
 
